@@ -11,7 +11,7 @@
 #gameContainer{
     /*background-color: rgb(172, 172, 172);
     border-radius: 20px;*/
-    font-family: "Permanent Marker", cursive;
+    font-family: "Arial", cursive;
     text-align: center;
 }
 
@@ -20,4 +20,24 @@
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+}
+
+#restartBtn{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(175, 235, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#restartBtn:hover{
+    background-color: rgb(200, 240, 255);
+}
+
+#restartBtn:active{
+    background-color: rgb(220, 245, 255);
 }
